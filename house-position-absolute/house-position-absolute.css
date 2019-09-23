@@ -1,0 +1,102 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: url("https://webstockreview.net/images/clipart-grass-scenery-7.png");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.house-position-absolute__wall{
+	height: 150px;
+	width: 300px;
+	border: 2px solid #f2e8c9;
+	background: #f2e8c9;
+	position: absolute;
+	left: 750px;
+	top: 250px;
+}
+.house-position-absolute__loft{
+	width: 0; 
+	height: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+	border-bottom: 130px solid #f2e8c9;
+	position: absolute;
+	left: 752px;
+	top: 121px;
+}
+.house-position-absolute__roof-left, .house-position-absolute__roof-right{
+	height: 30px;
+	width: 180px;
+	border: 2px solid #660000;
+	background: #660000;
+	border-radius: 30px;
+}
+.house-position-absolute__roof-left{	
+	transform: skew(0deg, -40deg);
+	position: absolute;
+	left: 723px;
+	top: 168px;
+}
+.house-position-absolute__roof-right{
+	transform: skew(0deg,40deg);
+	position: absolute;
+	left: 897px;
+	top: 168px;
+}
+.house-position-absolute__frame{
+	height: 65px;
+	width: 90px;
+	border: 3px solid #4d220e;
+	background: #75c1ff;
+	border-radius: 90px/65px;
+	position: absolute;
+	right: -50px;
+	top: 60px;
+}
+.house-position-absolute__door{
+	height: 100px;
+	width: 75px;
+	border: 2px solid #660000;
+	background: #660000;
+	border-radius: 30px 30px 0px 0px;
+	position: absolute;
+	left: 110px;
+	top: 49px;
+}
+.house-position-absolute__doorhandle{
+	height: 5px;
+	width: 5px;
+	border: 3px solid #140f0b;
+	background: #140f0b;
+	border-radius: 5px/5px;
+	position: absolute;
+	left: 55px;
+	top: 50px;
+}
+.house-position-absolute__window-1, .house-position-absolute__window-2{
+	height: 60px;
+	width: 60px;
+	border: 3px solid #4d220e;
+	background: #75c1ff;
+	border-radius: 20px;
+	position: absolute;
+	top: 40px;
+}
+.house-position-absolute__window-1{
+	left: 30px;
+}
+.house-position-absolute__window-2{
+	right: 30px;
+}
+.house-position-absolute__window-frame-horizontal, .house-position-absolute__window-frame-vertical{
+	width: 98%;
+	border: 2px solid #4d220e;
+	position: absolute;
+	top: 50%;
+}
+.house-position-absolute__window-frame-vertical{
+	transform: rotate(90deg);
+}

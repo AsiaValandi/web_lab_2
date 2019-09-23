@@ -1,0 +1,37 @@
+.house-position-static__wall{
+	height: 100px;
+	width: 150px;
+	border: 2px solid #f2e8c9;
+	background: #f2e8c9;
+	position: static;
+	margin-left: 450px;
+	margin-top: -75px;
+}
+.house-position-static__roof{
+	height: 150px;
+	width: 220px;
+	border: 1px solid #570204;
+	background: #570204;
+	border-radius: 100px 100px 30px 30px;
+	position: static;
+	margin-left: 417px;
+	margin-top: -250px;
+}
+.house-position-static__door{
+	height: 100px;
+	width: 50px;
+	border: 1px solid #9E7767;
+	background: #D28E71;
+	border-radius: 100px 100px 0px 0px;
+	position: static;
+}
+.house-position-static__window{
+	height: 50px;
+	width: 50px;
+	border: 1px solid #9E7767;
+	background: #D28E71;
+	border-radius: 100px/100px;
+	position: static;
+	margin-left: 90px;
+	margin-top: -100px;
+}
